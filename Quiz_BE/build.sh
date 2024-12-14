@@ -2,10 +2,11 @@
 # Exit on error
 set -o errexit
 
+cd Quiz_BE
+
 # Install dependencies
-pip install -r Quiz_BE/requirements.txt
+pip install -r requirements.txt
 
 # Apply database migrations
-python Quiz_BE/manage.py migrate
+python manage.py migrate
 
-cd Quiz_BE
