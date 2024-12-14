@@ -2,8 +2,6 @@
 # Exit on error
 set -o errexit
 
-cd Quiz_BE
-
 # Install dependencies
 pip install -r requirements.txt
 
