@@ -1,6 +1,6 @@
 let sessionId;
 let currentQuestionId;
-let base_url = "http://localhost:8000";
+let base_url = "https://quizz-6vtz.onrender.com";
 
 async function fetchQuestions() {
   const response = await fetch(
