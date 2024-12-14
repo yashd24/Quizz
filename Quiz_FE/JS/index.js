@@ -1,4 +1,4 @@
-base_url = 'http://localhost:8000';
+base_url = 'https://quizz-6vtz.onrender.com';
 function startQuiz() {
     fetch(`${base_url}/start/`, {
         method: 'POST'
