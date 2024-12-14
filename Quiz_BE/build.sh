@@ -6,4 +6,4 @@ set -o errexit
 pip install -r Quiz_BE/requirements.txt
 
 # Apply database migrations
-python manage.py migrate
+python Quiz_BE/manage.py migrate
