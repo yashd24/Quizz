@@ -35,6 +35,7 @@ CORS_ALLOWED_ORIGINS = [
     "http://127.0.0.1:5500",
     "http://localhost:8000",
     "https://quizz-6vtz.onrender.com",
+    "https://quizz-beta-one.vercel.app/",
 ]
 
 
